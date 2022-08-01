@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Helvetica;
   font-style: normal;
@@ -7,12 +12,24 @@ h1 {
   font-weight: bold;
 }
 
-.container-fluid {
-  background-color: #f1f3ff;
+h2 {
+  font-weight: bold;
+}
+
+.tes {
+  border: 1px solid red;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  border-bottom: 3px solid rgb(238, 238, 238);
 }
 
 .main-nav {
   background-color: #f1f3ff;
+  border-bottom: 3px solid rgb(238, 238, 238);
+  position: relative;
+  z-index: 0;
 }
 
 .main-nav a.navbar-brand {
@@ -35,17 +52,29 @@ h1 {
 }
 
 .main-content-1 {
-  background-color: #f1f3ff;
+  background-color: #ffffff;
   height: 500px;
   margin-right: -10px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
 }
 
-.main-contents {
-  padding-top: 177px;
-  padding-left: 120px;
+.main-content {
+  /* padding-top: 177px;
+  padding-left: 120px; */
+  margin: auto;
 }
 
-.main-content-1 h1 {
+.main-content-2 {
+  border-bottom: 3px solid rgb(238, 238, 238);
+}
+
+.card {
+  margin-left: 100px;
+}
+
+/* .main-content-1 h1 {
   float: left;
 }
 
@@ -55,16 +84,6 @@ h1 {
 
 .main-content-1 img {
   padding-top: 94px;
-}
-
-.main-content-1 button {
-  background-color: #5cb85f;
-  color: #ffffff;
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
 }
 
 .main-content-2 {
@@ -143,10 +162,10 @@ h1 {
 
 .main-accordion h1 {
   font-size: 36px;
-}
+} */
 
 .footer {
-  padding-top: 100px;
+  background-color: #f1f3ff;
 }
 
 .footer ul li {
