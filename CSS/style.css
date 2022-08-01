@@ -51,6 +51,10 @@ h2 {
   line-height: 20px;
 }
 
+.news {
+  border-bottom: 3px solid rgb(238, 238, 238);
+}
+
 .main-content-1 {
   background-color: #ffffff;
   height: 500px;
@@ -67,7 +71,7 @@ h2 {
 }
 
 .main-content-2 {
-  border-bottom: 3px solid rgb(238, 238, 238);
+  /* border-bottom: 3px solid rgb(238, 238, 238); */
 }
 
 .card {
